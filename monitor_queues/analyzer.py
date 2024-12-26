@@ -2,7 +2,7 @@ from monitor_queues.notifier import send_windows_notification, send_telegram_not
 
 # Diccionario con los mensajes personalizados para cada cola
 queue_descriptions = {
-    "GEOINTEGRATION.IN.XML.TRANSACTION.QUEUE": "Transacciones encoladas XML Procesamiento interno del Integrador",
+    "GEOINTEGRATION.IN.XML.TRANSACTION.QUEUE": "Transacciones encoladas XML - Cola de entrada, Procesamiento interno del Integrador",
     "GEOINTEGRATION.SAVE.FOID.SALE.QUEUE": "Transacciones encoladas hacia el SQL SERVER",
     "GEOINTEGRATION.SAVE.FOID.HECHAUKA.QUEUE": "Transacciones encoladas hacia el SQL SERVER - RESUMEN HECHAUKA",
     "GEOINTEGRATION.SAVE.RRHH.QUEUE": "Transacciones encoladas hacia la BBDD SICS",
@@ -10,7 +10,7 @@ queue_descriptions = {
     "GEOINTEGRATION.SAVE.FOID.CONCILIATOR.QUEUE": "Transacciones encoladas hacia la BBDD ORACLE GEOCONCILIADOR2",
     "GEOINTEGRATION.SAVE.TRANSACTION.MONGO.QUEUE": "Transacciones encoladas hacia la BBDD MONGO",
     "GEOINTEGRATION.SAVE.FOID.SERVICES.QUEUE": "Transacciones encoladas hacia SQL SERVER - SERVICIOS",
-    "GEOINTEGRATION.FOID.HANA.SERVICES.QUEUE": "Transacciones encoladas hacia la SAPCAR",
+    "GEOINTEGRATION.FOID.HANA.SERVICES.QUEUE": "Transacciones encoladas hacia SAPCAR",
     "ERROR.QUEUE": "Transacciones en ERROR"
 }
 
