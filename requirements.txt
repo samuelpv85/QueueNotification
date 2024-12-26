@@ -1,2 +1,5 @@
 paramiko
 scp
+plyer
+requests
+structlog
