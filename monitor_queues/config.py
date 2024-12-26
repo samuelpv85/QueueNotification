@@ -12,6 +12,6 @@ local_config = {
 
 telegram_config = {
     "token": "7437850679:AAH4OtbPDS7F-iaHsOhs0bFdoK9GEZJHFJQ",  # Reemplaza con tu token
-    "chat_id": "7123311658"  # Reemplaza con el chat ID de tu grupo
+    "chat_id": "-1002462381153"  # Reemplaza con el chat ID de tu grupo
 }
 
